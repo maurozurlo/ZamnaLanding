@@ -13,7 +13,6 @@ height: 100%;
 const Header = styled.div`
   width: 100%;
   height: 10vh;
-  max-height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +37,6 @@ const VideoContainer = styled.div`
   h1,p{
     
     padding: 0;
-    margin: .3em 0;
     filter: drop-shadow(0 5px 3px rgba(0,0,0,.2));
   }
   h1{
@@ -52,20 +50,20 @@ const VideoContainer = styled.div`
     font-weight: bold;
   }
   @media only screen and (max-width: 417px) {
-    height: 83vh;
       h1{
+        font-size: 2em;
     width: 90%;
     text-align: center;
       }
       p{
-        font-size: .8em;
+        font-size: .7em;
     width: 90%;
       }
     }
 `
 
 const TV = styled.div`
-    width: 45%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +72,7 @@ const TV = styled.div`
 
     @media only screen and (max-width: 417px) {
       width: 100%;
-      transform: translateX(-6%) translateY(100%);
+      transform: translateX(-6%) translateY(40%);
     }
 
     span{
